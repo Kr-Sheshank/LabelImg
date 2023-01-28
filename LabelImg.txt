@@ -1,0 +1,6 @@
+pip install sip
+pip install PyQt5
+pip install lxml
+cd 'path of the labelimg master' #Change the driectory where labelimg master file is there
+pyrcc5 -o libs/resources.py resources.qrc
+python labelImg.py
